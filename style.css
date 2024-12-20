@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+body {
+  background-color: #091017;
+  color: #fff;
+}
+input {
+  color: #fff;
+  width: 300px;
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  top: 0;
+  left: 39%;
+  position: absolute;
+  background-color: #181d25;
+  border: 1px solid #252525;
+  border-radius: 13px;
+  text-align: center;
+  box-shadow: rgba(208, 208, 211, 0.46) 0px 50px 100px -20px,
+    rgba(208, 208, 211, 0.46) 0px 30px 60px -30px,
+    rgba(208, 208, 211, 0.46) 0px -2px 6px 0px inset;
+}
+.submit {
+  margin: 1rem auto;
+  position: absolute;
+  top: 0.5%;
+  left: 58%;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+.userImage {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+.usersForm {
+  margin: 3rem auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+    margin-top: 5rem ;
+  background-color: #181d25;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+  box-shadow: rgba(208, 208, 211, 0.46) 0px 50px 100px -20px,
+    rgba(208, 208, 211, 0.46) 0px 30px 60px -30px,
+    rgba(208, 208, 211, 0.46) 0px -2px 6px 0px inset;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+li {
+    border-radius: 13px;
+    margin: 1.5rem;
+    height: 100px;
+  list-style: none;
+  width: 100px;
+  background-color: #080f15;
+  box-shadow: rgba(208, 208, 211, 0.46) 0px 50px 100px -20px,
+    rgba(208, 208, 211, 0.46) 0px 30px 60px -30px,
+    rgba(208, 208, 211, 0.46) 0px -2px 6px 0px inset;
+
+}
+
+.repos {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+
+.text {
+  font-size: 1.5rem;
+}
+
+.follow {
+  margin: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 100%;
+
+    
+}
+#repo{
+    border-radius: 13px;
+    background-color: #080f15;
+    padding: .3rem;
+    box-shadow: rgba(208, 208, 211, 0.46) 0px 50px 100px -20px,
+    rgba(208, 208, 211, 0.46) 0px 30px 60px -30px,
+    rgba(208, 208, 211, 0.46) 0px -2px 6px 0px inset;
+    
+}
+.fa-book-bookmark{
+ float: left;
+ margin: 4px 15px;
+
+}
